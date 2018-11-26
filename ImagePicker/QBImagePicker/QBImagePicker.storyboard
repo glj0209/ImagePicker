@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -210,17 +211,17 @@
                                         <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YIY-5S-b8W">
                                             <rect key="frame" x="41.5" y="12" width="24" height="24"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="24" id="nXE-8G-2u3"/>
-                                                <constraint firstAttribute="height" constant="24" id="xRy-JV-3Bm"/>
+                                                <constraint firstAttribute="height" constant="24" id="3Ge-p9-cRM"/>
+                                                <constraint firstAttribute="width" constant="24" id="5Db-n9-2v4"/>
                                             </constraints>
                                             <state key="normal" image="button_normal.png"/>
                                         </button>
                                         <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0I-9T-T9s">
-                                            <rect key="frame" x="13.5" y="12" width="24" height="24"/>
+                                            <rect key="frame" x="41.5" y="12" width="24" height="24"/>
                                             <color key="backgroundColor" red="0.039215686270000001" green="0.35294117650000001" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="24" id="Nf0-Ta-Ows"/>
-                                                <constraint firstAttribute="width" constant="24" id="ZaA-Ym-8ST"/>
+                                                <constraint firstAttribute="width" constant="24" id="4d0-Tc-jSO"/>
+                                                <constraint firstAttribute="height" constant="24" id="y8b-4K-Qag"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -243,9 +244,10 @@
                                     <constraint firstAttribute="trailing" secondItem="0aq-fn-r9R" secondAttribute="trailing" id="1xm-YR-1aF"/>
                                     <constraint firstAttribute="trailing" secondItem="uyS-Tg-Iyl" secondAttribute="trailing" id="1xt-jW-Drw"/>
                                     <constraint firstItem="uyS-Tg-Iyl" firstAttribute="leading" secondItem="fc0-k1-HNL" secondAttribute="leading" id="2gO-QS-g9M"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="YIY-5S-b8W" secondAttribute="trailing" constant="4" id="5dl-Kg-DC0"/>
                                     <constraint firstItem="0aq-fn-r9R" firstAttribute="leading" secondItem="fc0-k1-HNL" secondAttribute="leading" id="7WM-zv-4jB"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="k0I-9T-T9s" secondAttribute="trailing" constant="4" id="9Bt-uh-kKL"/>
                                     <constraint firstAttribute="bottom" secondItem="uyS-Tg-Iyl" secondAttribute="bottom" id="B4l-PZ-gqc"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="YIY-5S-b8W" secondAttribute="trailing" constant="4" id="E8O-0g-uUj"/>
                                     <constraint firstItem="fmt-Lp-DVv" firstAttribute="top" secondItem="fc0-k1-HNL" secondAttribute="top" id="Mct-U7-hdd"/>
                                     <constraint firstItem="BwJ-KE-LWZ" firstAttribute="top" secondItem="fc0-k1-HNL" secondAttribute="top" id="UJz-U6-yN2"/>
                                     <constraint firstAttribute="trailing" secondItem="BwJ-KE-LWZ" secondAttribute="trailing" id="ViU-xg-jBz"/>
@@ -255,10 +257,9 @@
                                     <constraint firstAttribute="bottom" secondItem="BwJ-KE-LWZ" secondAttribute="bottom" id="jYP-8U-0SU"/>
                                     <constraint firstItem="uyS-Tg-Iyl" firstAttribute="top" secondItem="fc0-k1-HNL" secondAttribute="top" id="q37-T4-cB2"/>
                                     <constraint firstItem="fmt-Lp-DVv" firstAttribute="leading" secondItem="fc0-k1-HNL" secondAttribute="leading" id="q7d-e7-Gi3"/>
-                                    <constraint firstItem="YIY-5S-b8W" firstAttribute="top" secondItem="fc0-k1-HNL" secondAttribute="topMargin" constant="4" id="qbB-Fs-Vbw"/>
-                                    <constraint firstItem="YIY-5S-b8W" firstAttribute="leading" secondItem="k0I-9T-T9s" secondAttribute="trailing" constant="4" id="the-k2-kzO"/>
-                                    <constraint firstItem="k0I-9T-T9s" firstAttribute="top" secondItem="fc0-k1-HNL" secondAttribute="topMargin" constant="4" id="y7c-ob-cKR"/>
+                                    <constraint firstItem="k0I-9T-T9s" firstAttribute="top" secondItem="fc0-k1-HNL" secondAttribute="topMargin" constant="4" id="uLb-43-Cel"/>
                                     <constraint firstAttribute="trailing" secondItem="fmt-Lp-DVv" secondAttribute="trailing" id="yFs-Ob-VOJ"/>
+                                    <constraint firstItem="YIY-5S-b8W" firstAttribute="top" secondItem="fc0-k1-HNL" secondAttribute="topMargin" constant="4" id="yto-uJ-BwY"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
